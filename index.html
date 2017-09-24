@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="surveyApp">
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Survey App</title>
+    <link rel="stylesheet" href="css/main.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" />  </head>
+  <body>
+    <div style="min-height:100%">
+        <!-- views -->
+        <div ng-view>
+        </div>
+    </div>
+    <!-- scripts -->
+    <!-- build:js lib/jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    <!-- endbuild -->
+    <!-- build:js lib/angular.min.js -->
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js lib/angular-route.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js lib/bootstrap.min.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>    <!-- endbuild -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/factory/serviceCall.js"></script>
+    <script src="scripts/factory/activeData.js"></script>
+    <script src="scripts/controllers/homeController.js"></script>
+    <script>
+    </script>
+  </body>
+</html>
